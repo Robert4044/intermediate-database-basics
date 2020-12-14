@@ -124,3 +124,8 @@
 -- CREATE TABLE products (product_id SERIAL PRIMARY KEY, name TEXT, price INT);
 
 -- CREATE TABLE orders (order_id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(user_id));
+
+-- INSERT INTO users (name, email) VALUES ('Robert', 'robert@gmail'), ('Tahani', 't@gmail'), ('Liz', 'liz@gmail');
+
+-- INSERT INTO products (name, price) VALUES ('Robert', 1.99), ('Tahani', 450), ('Liz', 25);
+
