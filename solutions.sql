@@ -121,6 +121,6 @@
 
 -- CREATE TABLE users ( user_id SERIAL PRIMARY KEY, name TEXT, email TEXT );
 
--- CREATE TABLE products (name TEXT, price INT);
+-- CREATE TABLE products (product_id SERIAL PRIMARY KEY, name TEXT, price INT);
 
 -- CREATE TABLE orders (order_id SERIAL PRIMARY KEY, user_id INTEGER REFERENCES users(user_id));
